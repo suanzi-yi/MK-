@@ -1,0 +1,36 @@
+/* 全局样式表 */
+html,body,#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.el-message-box{
+  width: 80%;
+}
+@media screen and (max-width: 500px) {
+  .el-message-box{
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .el-message {
+    min-width: 300px !important;
+  }
+}
+.el-page-header{
+  margin-bottom: 5%;
+  padding-top: 3%;
+}
+.el-collapse-item__header{
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+.el-icon-arrow-right:before{
+  margin-top: 50px;
+}
